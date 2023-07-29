@@ -1,0 +1,122 @@
+
+
+
+nav{
+  background: rgba(0,0,0,0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  backdrop-filter: blur(15px);
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+nav a:hover{
+  background: rgba(52,54,104,0.8);
+}
+
+nav a.active{
+  background: rgb(52,54,104);
+  color: white;
+}
+
+
+
+
+
+/* 
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(69, 90, 152, 0.1);
+    height: 100px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 50px 50px 0 0;
+    z-index: 100;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    padding: 3px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .nav-links a:active,
+  .nav-links a:visited {
+    background-color: #495c9b;
+  }
+  
+  .hamburger-icon {
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Media query for responsive design */
+  /* @media screen and (max-width: 768px) {
+    nav {
+      height: 70px;
+      border-radius: 50px;
+    }
+    .hamburger-icon {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+    .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      bottom: 80px;
+      right: 10px;
+      background-color: rgba(69, 90, 152, 0.1);
+      border-radius: 5px;
+      padding: 10px;
+    }
+  } */ 

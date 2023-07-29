@@ -1,0 +1,169 @@
+
+/* Styles for the section containing the image and cards */
+.experience-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the content on the left side */
+  .experience-content {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  /* Styles for the image on the right side */
+  .image-container {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Styles for the container of the three cards */
+  .cards-container {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Styles for each individual card */
+  .card {
+    
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  /* Styles for the experience card */
+.card.card-experience {
+    background-color: #445573; /* Replace with desired color */
+  }
+  
+  /* Styles for the innovative card */
+  .card.card-innovative {
+    background-color: #6d3a86; /* Replace with desired color */
+  }
+  
+  /* Styles for the imaginative card */
+  .card.card-imaginative {
+    background-color: #006d77; /* Replace with desired color */
+  }
+  
+  /* Styles for the header of each card */
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+   
+    
+  }
+  
+  /* Styles for the number on each card */
+  .card-number {
+    font-size: 1.5rem;
+    margin-left: -3rem;
+    width: 22%;
+    font-weight: bold;
+    padding: 8px 12px; /* Add some padding around the number to create the badge effect */
+    border-radius: 10%; /* Make it circular to create the badge appearance */
+    color: #ffffff; /* Text color for the number */
+    background-color: rgba(234, 122, 58, 0.7); /* Background color for the badge */
+    z-index: 1; /* Set a higher z-index to make sure the badge appears above the card content */
+    position: relative; /* Required for z-index */
+  }
+  
+ 
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  
+  .card-content {
+    margin-top: 10px;
+  }
+
+  .my__experience-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #343668;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 250px;    
+  }
+  
+
+
+/* ========== responsive at 1024 ======== */
+
+@media screen and (max-width: 1024px) {
+
+  .experience-section {
+    margin-top: 4rem;
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+    
+         
+  }      
+
+  .my__experience-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #343668;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
+    
+  }  
+
+}
+
+  /* ========== responsive at 600px============ */
+
+  @media screen and (max-width: 600px) {
+
+    .experience-section {
+      margin-top: 18rem;
+      width: 80%;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;   
+           
+    }      
+  
+    .my__experience-title{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background: #343668;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      height: 250px;
+      margin-bottom: 10px;
+      
+    }  
+
+  }
