@@ -132,7 +132,7 @@
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    height: 250px;
+    height: 150px;
     margin-bottom: 10px;
     
   }  
@@ -144,13 +144,24 @@
   @media screen and (max-width: 600px) {
 
     .experience-section {
-      margin-top: 18rem;
+      margin-top: 21rem;
+      
       width: 80%;
      display: flex;
      flex-direction: column;
      flex-wrap: nowrap;   
+     font-size: 15px;
            
     }      
+
+    .cards-container {
+      flex: 1;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
   
     .my__experience-title{
       display: flex;
@@ -161,9 +172,12 @@
       padding: 20px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       max-width: 400px;
-      height: 250px;
+      height: 130px;
       margin-bottom: 10px;
       
     }  
+
+    
+    
 
   }

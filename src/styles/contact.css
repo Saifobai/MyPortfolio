@@ -65,6 +65,12 @@ input,textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .contact__img{
+        
+        margin-left: 15px;
+       
+    }
   }
   
   /* ========== media small query ======== */

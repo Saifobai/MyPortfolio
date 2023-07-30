@@ -146,7 +146,7 @@
 /* ================================ */
 @media screen and (max-width: 600px) {
   #projects {
-    margin-top: 14rem;
+    margin-top: 22rem;
     font-size: 12px;
   }
   .filter__buttons {
