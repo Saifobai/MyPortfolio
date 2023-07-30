@@ -1,0 +1,45 @@
+
+
+footer{   
+    margin-top: 7rem;
+    height: 160px;   
+}
+
+p{
+    margin-bottom: 1.3rem;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.social__icons{   
+    margin-right: 2rem;    
+    font-size: 3rem;
+   
+}
+
+.social__icons a:hover{
+    color: whitesmoke;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .footer__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .social__icons{   
+        margin-top: -2rem;
+       
+    }
+
+    
+
+}
+    

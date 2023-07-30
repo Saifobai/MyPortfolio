@@ -5,18 +5,10 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import planet from "../assets/planet2.png";
+import Footer from "./Footer";
 
 const Contact = () => {
   const form = useRef();
-
-  // const handleInputChange = (event) => {
-  //   const { name, type, value } = event.target;
-
-  //   setFormData((prevFormState) => ({
-  //     ...prevFormState,
-  //     [name]: value,
-  //   }));
-  // };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -73,6 +65,8 @@ const Contact = () => {
           </button>
         </form>
       </div>
+
+      <Footer />
     </section>
   );
 };
