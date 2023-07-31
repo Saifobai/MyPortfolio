@@ -8,33 +8,45 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    name: "Project 1",
+    name: "All projects",
     category: "All",
     image: img1, // Replace with actual image paths
   },
+
   {
-    name: "Project 2",
+    name: "Resistors Calculator",
     category: "reactprojects",
     image: img2,
-  },
-  {
-    name: "Project 3",
-    category: "angularprojects",
-    image: img3,
-  },
-  {
-    name: "Project 4",
-    category: "arduinoprojects",
-    image: img4,
-  },
-  {
-    name: "Project 5",
-    category: "arduinoprojects",
-    image: img4,
+    liveDemo: "https://resistors-calculators.netlify.app/",
+    gitHub: "https://github.com/Saifobai/OhmLawReactjs",
   },
 
   {
-    name: "Project 6",
+    name: "Don't Pay",
+    category: "reactprojects",
+    image: img2,
+    liveDemo: "https://github.com/Saifobai/Don-tPay",
+    gitHub: "https://github.com/Saifobai/Don-tPay",
+  },
+
+  {
+    name: "Ang-Res-Calculator",
+    category: "angularprojects",
+    image: img3,
+    liveDemo: "https://ohm-law-angular.vercel.app/",
+    gitHub: "https://github.com/Saifobai/OhmLawAngular",
+  },
+
+  {
+    name: "Ang-E-Shop",
+    category: "angularprojects",
+    image: img3,
+    liveDemo: "https://angular-e-shop.vercel.app/",
+    gitHub: "https://github.com/Saifobai/Angular-E-Shop",
+  },
+
+  {
+    name: "COMING SOON",
     category: "arduinoprojects",
     image: img4,
   },
@@ -136,13 +148,15 @@ const Projects = () => {
                         <div className="projects__card__buttons">
                           <a
                             className=" btn projects__btn__responsive"
-                            href="#"
+                            href={project.gitHub}
+                            target="_blank"
                           >
                             GitHub
                           </a>
                           <a
                             className=" btn projects__btn__responsive"
-                            href="#"
+                            href={project.liveDemo}
+                            target="_blank"
                           >
                             Live Demo
                           </a>
@@ -150,10 +164,18 @@ const Projects = () => {
                         <div className="text__overlay">{project.name}</div>
                       </div>
                       <div className="projects__card__buttons">
-                        <a className=" btn projects__btn__responsive" href="#">
+                        <a
+                          className=" btn projects__btn__responsive"
+                          href={project.gitHub}
+                          target="_blank"
+                        >
                           GitHub
                         </a>
-                        <a className=" btn projects__btn__responsive" href="#">
+                        <a
+                          className=" btn projects__btn__responsive"
+                          href={project.liveDemo}
+                          target="_blank"
+                        >
                           Live Demo
                         </a>
                       </div>
