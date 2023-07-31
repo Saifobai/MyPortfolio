@@ -37,10 +37,14 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            corrupti tenetur earum doloremque vitae doloribus facere esse quos,
-            facilis eveniet reprehenderit veniam, voluptas accusamus
-            voluptatibus incidunt expedita consectetur? Expedita, rerum!
+            I have 7 years of experience as an Electronics and Communications
+            Engineer in North Iraq, working on diverse projects. Additionally, I
+            spent 1.5 years as a Software Developer in Germany, gaining
+            expertise in programming and software development. I am passionate
+            about innovation and seek new opportunities to leverage my unique
+            skill set in both electronics and software. I thrive in dynamic
+            environments and enjoy tackling challenging problems. Ready to
+            contribute to exciting projects.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

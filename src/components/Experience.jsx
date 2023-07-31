@@ -27,9 +27,6 @@ const Experience = () => {
         </div>
       </motion.div>
 
-      {/* IMAGE */}
-      <div className="image-container"></div>
-
       {/* SKILLS */}
       <div className="cards-container">
         {/* EXPERIENCE */}
@@ -73,10 +70,12 @@ const Experience = () => {
             <p className="card-title">Innovative</p>
           </div>
           <p className="card-content">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            In 7 years as an Electronics and Communications Engineer in North
+            Iraq, I successfully established wireless connections between the
+            control center and distant stations around the city borders,
+            overcoming challenging circumstances. Demonstrating adaptability, I
+            transitioned into software development swiftly, acquiring valuable
+            skills and promptly joining the field with enthusiasm.
           </p>
         </motion.div>
 
@@ -94,13 +93,17 @@ const Experience = () => {
         >
           <div className="card-header">
             <p className="card-number">03</p>
-            <p className="card-title">Imaginative</p>
+            <p className="card-title">Visionary</p>
           </div>
           <p className="card-content">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            As a visionary Electronics and Communications Engineer in North
+            Iraq, I spearheaded the establishment of wireless connections
+            between the control center and distant stations despite challenging
+            circumstances. My innate ability to foresee innovative solutions led
+            me to swiftly pivot my career direction towards software
+            development. Embracing this new path, I quickly acquired skills and
+            became a valuable asset in the field, contributing to diverse
+            projects with inspired ideas.
           </p>
         </motion.div>
       </div>
